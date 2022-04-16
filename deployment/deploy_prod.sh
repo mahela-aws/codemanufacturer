@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh ubuntu@104.236.57.112 <<EOF
+ssh ubuntu@3.215.54.55 <<EOF
   cd codemanufacturer
   git pull
   source /opt/envs/djtrump/bin/activate
