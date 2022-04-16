@@ -15,7 +15,7 @@ Resources:
   VPCStack:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://tomgregory-cloudformation-examples.s3-eu-west-1.amazonaws.com/default-vpc.yml
+      TemplateURL: https://github.com/mahela-aws/codemanufacturer/blob/master/default-vpc.yml
   LoadBalancer:
     Type: AWS::ElasticLoadBalancingV2::LoadBalancer
     Properties:
