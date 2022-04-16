@@ -9,7 +9,7 @@ Parameters:
     Description: The IP address of the workstation that can SSH into the instance.
   AMI:
     Type: String
-    Default: ami-08f3d892de259504d
+    Default: ami-0e472ba40eb589f49
     Description: The Linux AMI to use.
   Key:
     Type: String
@@ -95,7 +95,7 @@ Resources:
       Tags:
         -
           Key: Appplication
-          Value: Linux Server
+          Value: Jenkins Server
         -
           Key: Domain
           Value: None
